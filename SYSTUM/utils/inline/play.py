@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="🧚 𝙁𝙀𝙔 𝙆𝙄𝙕𝙄 🧚", url="https://t.me/kumsal_team_owner",            
+                text="🧚 𝙁𝙀𝙔 𝙆𝙄𝙕𝙄 🧚", url="https://t.me/Owner_kumsal_team",            
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
