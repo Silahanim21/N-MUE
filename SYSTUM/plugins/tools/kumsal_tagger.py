@@ -19,7 +19,7 @@ from pyrogram.types import (
     ChatMemberUpdated,
 )
 from SYSTUM import app
-from config import app
+from config import LOGGER_ID, OWNER_ID
 from SYSTUM.plugins.tools.kumsal import *
 
 kumsal_tagger = {}
