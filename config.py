@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN",)
 BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
 
 # Get Your repo
-REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
+REPO_LINK = getenv("REPO_LINK" , "https://t.me/the_team_kumsal")
 
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "Sytumm")
@@ -52,7 +52,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -87,21 +87,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "START_IMG_URL", "https://envs.sh/sFt.jpeg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
+    "PING_IMG_URL", "https://envs.sh/sFt.jpeg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/sFt.jpeg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ce5ffb3d5f383c781f234.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/sFt.jpeg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/sFt.jpeg"
+STREAM_IMG_URL = "https://envs.sh/sFt.jpeg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/sFt.jpeg"
+YOUTUBE_IMG_URL = "https://envs.sh/sFt.jpeg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/sFt.jpeg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/sFt.jpeg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/sFt.jpeg"
 
 
 def time_to_seconds(time):
