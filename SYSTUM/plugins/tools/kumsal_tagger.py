@@ -148,7 +148,7 @@ async def utag(app, message):
     user = message.from_user
     chat = message.chat
     
-    await app.send_message(LOG_GROUP_ID, f"""
+    await app.send_message(LOGGER_ID, f"""
 
 Etiket işlemi bildirimi.
 
@@ -332,7 +332,7 @@ async def chat_mode_controller(bot: app, msg: Message):
     commands = msg.command
     chat_mode_users[chat_id] = msg.from_user.id  # Komutu gönderen kullanıcıyı kaydet
 
-    await bot.send_message(LOG_GROUP_ID, f"""
+    await bot.send_message(LOGGER_ID, f"""
 #CHATMODE KULLANILDI
 👤 Kullanan : [{msg.from_user.first_name}](tg://user?id={msg.from_user.id})
 💥 Kullanıcı Id : {msg.from_user.id}
@@ -984,7 +984,7 @@ async def slap(bot: app, message: Message):
     )
 
     await bot.send_message(
-        LOG_GROUP_ID,
+        LOGGER_ID,
         f"""
 👤 Kullanan : [{atan.first_name}](tg://user?id={atan.id})
 💥 Kullanıcı Id : {atan.id}
@@ -1022,7 +1022,7 @@ async def oner(bot: app, message: Message):
     )
 
     await bot.send_message(
-        LOG_GROUP_ID,
+        LOGGER_ID,
         f"""
 👤 Kullanan : [{atan.first_name}](tg://user?id={atan.id})
 💥 Kullanıcı Id : {atan.id}
